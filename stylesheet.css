@@ -1,0 +1,57 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section-1{
+	background-image:url("https://thumbs.dreamstime.com/z/concentration-work-young-business-people-work-spacious-beautiful-office-together-group-young-business-people-working-171657332.jpg");
+	padding-top:300px;
+}
+
+.container{
+	width: 1140px;
+	margin-left: 50px;
+	padding-bottom:100px;
+	position: relative;
+	animation: mymove 2.5s;
+	animation-fill-mode: forwards;
+}
+
+.container h1{
+	font-size: 40px;
+	color: white;
+	
+
+}
+.container span{
+	font-size: 40px;
+	color: #79d70f;
+}
+
+.container p{
+	color:white;
+	width: 500px;
+	position: relative;
+	animation: mymove 3s;
+	animation-fill-mode: forwards;
+}
+
+
+@keyframes mymove {
+  from {right: 300px;}
+  to {right: 0px;}
